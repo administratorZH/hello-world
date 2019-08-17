@@ -1,0 +1,13 @@
+<li class="p-0 list-group-item d-flex justify-content-between lh-condensed">
+            <div class="input-group input-group-sm mt-1 mb-1">
+              <div class="input-group-prepend">
+                <span class="input-group-text text-truncate bg-white p-1 border-0 d-inline-block" title="${title}">${title}</span>
+                <button class="btn btn-outline-secondary p-0 border-0" type="button" data-iid="${iid}">-</button>
+              </div>
+              <input type="text" class="form-control p-1" aria-label="Small" value="${count}" aria-describedby="inputGroup-sizing-sm">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary p-0 border-0" type="button" data-iid="${iid}">+</button>
+                <span class="input-group-text bg-white border-0 p-0 pl-1">гд${(price*count).toFixed(2)}</span>
+              </div>
+            </div>
+          </li>
